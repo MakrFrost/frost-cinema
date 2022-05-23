@@ -43,9 +43,14 @@ p {
 }
 
 .container {
-  width: 1650px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -64,8 +69,30 @@ p {
   line-height: 29px;
   text-transform: uppercase;
   font-family: var(--raleway-font) sant-serif;
+
+  max-width: 106px;
 }
 
 .header__logo-primary {
   color: var(--second-text-color);
+}
+
+.header__search-form {
+  flex-grow: 1;
+
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__search-input {
+  width: 100%;
+
+  outline: none;
+  border-radius: 6px;
+  background-color: var(--text-color);
+  height: 70px;
+  padding-left: 74px;
+
+  color: var(--white);
 }
