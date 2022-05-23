@@ -8,16 +8,62 @@
   --inter-font: Inter, sans-serif;
 }
 
-@import url(./basic.css);
+@import url(basic.css);
 @import url(./variables.css);
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
+  min-width: 320px;
+  min-height: 100vh;
+
   background-color: var(--bcg-color);
   color: var(--white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--white);
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+  font-family: var(--raleway-font) sant-serif;
+}
+
+.logo__gold {
+  color: var(--second-text-color);
 }
