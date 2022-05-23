@@ -25,6 +25,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
+  font-family: Inter, sans-serif;
+
   background-color: var(--bcg-color);
   color: var(--white);
 }
@@ -41,9 +43,9 @@ p {
 }
 
 .container {
-  width: 1200px;
+  width: 1650px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 .header {
@@ -64,6 +66,6 @@ p {
   font-family: var(--raleway-font) sant-serif;
 }
 
-.logo__gold {
+.header__logo-primary {
   color: var(--second-text-color);
 }
