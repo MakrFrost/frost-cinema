@@ -1,0 +1,7 @@
+@import url(./basic.css);
+@import url(./variables.css);
+
+body {
+  background-color: var(--bcg-color);
+  color: var(--white);
+}
