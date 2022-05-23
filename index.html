@@ -21,12 +21,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!--Добавляет хедер-->
+
     <header class="header">
       <div class="container">
+        <!--Добавляет логотип-->
         <p class="header__logo" href="#">
           <span class="header__logo-primary">Frost</span> Cinema
         </p>
-
+        <!--Добавляет форму поиска-->
         <form class="header__search-form">
           <input
             class="header__search-input"
@@ -35,6 +38,25 @@
             placeholder="Поиск..."
           />
         </form>
+
+        <!--Добавляет кнопку меню-->
+
+        <button class="header__menu-btn" type="button">
+          <svg
+            class="header__icon"
+            width="41"
+            height="41"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.944 10.896h29.712M29.054 20.8H5.944M5.944 30.704h16.507"
+              stroke="#fff"
+              stroke-width="2.475"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </header>
   </body>
