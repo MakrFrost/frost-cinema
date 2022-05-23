@@ -15,3 +15,9 @@ body {
   background-color: var(--bcg-color);
   color: var(--white);
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
