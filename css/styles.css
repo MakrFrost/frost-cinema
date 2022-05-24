@@ -191,12 +191,18 @@ p {
 }
 
 .film-week__btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
   width: 225px;
   height: 72px;
   padding: 25px 25px;
 
   cursor: pointer;
 
+  text-decoration: 0;
   color: var(--white);
   background: var(--text-color);
   border-radius: 6px;
