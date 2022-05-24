@@ -10,7 +10,7 @@
   --inter-font: Inter, sans-serif;
 
   /* Для плавных переходов */
-  --animation: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  --animation: 350ms cubic-bezier(0.89, 0.56, 0.22, 0.36);
 }
 
 html {
@@ -111,6 +111,8 @@ p {
   font-size: 24px;
   line-height: 29px;
   opacity: 0.3;
+
+  transition: background-color var(--animation);
 }
 
 .header__search-input:focus {
@@ -140,24 +142,90 @@ p {
 /* Стили для фильма недели */
 
 .film-week {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .film-week__container {
+  display: flex;
 }
+
 .film-week__img {
+  height: 692px;
+  width: 100%;
+
+  border-radius: 10px;
 }
+
 .film-week__name {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+
+  color: var(--white);
 }
+
 .film-week__text {
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+
+  opacity: 0.6;
 }
+
 .film-week__text::before {
   content: "\AB";
 }
+
 .film-week__text::after {
   content: "\BB";
 }
+
 .film-week__btn {
+  width: 375px;
+  height: 72px;
+  padding: 25px 112px;
+
+  cursor: pointer;
+
+  color: var(--white);
+  background: var(--text-color);
+  border-radius: 6px;
+  border: 0;
+
+  transition: background-color var(--animation);
 }
+
+.film-week__btn:hover,
+.film-week__btn:active {
+  background-color: var(--second-text-color);
+}
+
 .film-week__look {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  width: 375px;
+  height: 72px;
+
+  padding: 25px;
+  margin: 0;
+
+  text-decoration: 0;
+  color: var(--white);
+  background-color: var(--text-color);
+  border-radius: 6px;
+
+  transition: background-color var(--animation);
 }
+
+.film-week__look:hover,
+.film-week__look:focus {
+  background-color: var(--second-text-color);
+}
+
 .film-week__icon {
+  margin-left: 10px;
 }
