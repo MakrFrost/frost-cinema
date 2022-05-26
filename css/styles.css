@@ -291,7 +291,6 @@ p {
   list-style-type: none;
 
   margin-right: 30px;
-  margin-bottom: 40px;
 }
 .other-films__item:nth-child(4n) {
   margin-right: 0;
@@ -299,9 +298,16 @@ p {
 .other-films__item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
+.other-films__item:nth-child(2n) {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
 .other-films__link {
   display: block;
   text-decoration: none;
+
+  box-shadow: 0px 0px 10px 0px #d3ac3f;
+  border-radius: 6px;
 
   transition: background-color var(--animation), border var(--animation),
     box-shadow var(--animation);
