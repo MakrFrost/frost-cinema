@@ -337,11 +337,10 @@ p {
 
   opacity: 0;
   color: var(--white);
-  font-size: 18spx;
+  font-size: 16px;
   line-height: 140%;
   border-radius: 6px;
   text-align: center;
 
-  transition: background-color var(--animation), border var(--animation),
-    box-shadow var(--animation);
+  transition: border var(--animation), box-shadow var(--animation);
 }
