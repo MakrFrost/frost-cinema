@@ -46,6 +46,11 @@ p {
   margin: 0;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Контейнер для контента  */
 
 .container {
@@ -395,4 +400,74 @@ p {
   color: #d3ac3f;
   background-color: var(--bcg-color);
   box-shadow: 0px 0px 10px 0px #d3ac3f;
+}
+
+/* Стили для футера */
+
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  margin-right: 200px;
+}
+
+.footer-contacts__title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.footer-contacts__title-second {
+  color: var(--second-text-color);
+}
+
+.footer-contacts__text {
+  margin: 0;
+  margin-bottom: 26px;
+
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-contacts__tel {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.footer-contacts__mail {
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 100px;
+}
+
+.footer-nav__link {
+  font-family: var(--inter-font), sans-serif;
+
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--white);
 }
