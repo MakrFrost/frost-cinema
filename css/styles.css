@@ -253,8 +253,7 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.other-films__container {
-}
+
 .other-films__title {
   font-weight: 800;
   font-size: 120px;
@@ -264,6 +263,7 @@ p {
   color: var(--white);
   opacity: 0.6;
 }
+
 .other-films__title-second {
   padding-left: 195px;
 
@@ -273,10 +273,12 @@ p {
   text-transform: uppercase;
   opacity: 0.5;
 }
+
 .other-films__title-frost {
   color: var(--second-text-color);
   opacity: 1;
 }
+
 .other-films__list {
   display: flex;
   flex-wrap: wrap;
@@ -285,23 +287,29 @@ p {
   margin: 0;
   padding-top: 60px;
   padding-left: 0;
+  padding-bottom: 130px;
 }
+
 .other-films__item {
   display: block;
   list-style-type: none;
 
   margin-right: 30px;
 }
+
 .other-films__item:nth-child(4n) {
   margin-right: 0;
 }
+
 .other-films__item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
+
 .other-films__item:nth-child(2n) {
   margin-top: 50px;
   margin-bottom: 0;
 }
+
 .other-films__link {
   display: block;
   text-decoration: none;
@@ -312,11 +320,13 @@ p {
   transition: background-color var(--animation), border var(--animation),
     box-shadow var(--animation);
 }
+
 .other-films__wrap {
   position: relative;
 
   overflow: hidden;
 }
+
 .other-films__img {
   display: block;
 
@@ -325,6 +335,7 @@ p {
 
   border-radius: 6px;
 }
+
 .other-films__link:hover .other-films__dscrpt {
   opacity: 1;
 
@@ -332,6 +343,7 @@ p {
   border: 2px solid var(--second-text-color);
   box-shadow: var(--second-text-color) inset 2px 2px 100px -30px;
 }
+
 .other-films__dscrpt {
   position: absolute;
   top: 0;
@@ -349,4 +361,38 @@ p {
   text-align: center;
 
   transition: border var(--animation), box-shadow var(--animation);
+}
+
+.other-films__button {
+  display: block;
+
+  width: 375px;
+  height: 72px;
+
+  padding: 22px 50px;
+  margin: auto;
+
+  color: var(--bcg-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 6px;
+  border: none;
+
+  background-color: #d3ac3f;
+  box-shadow: 0px 0px 10px 0px #d3ac3f;
+
+  cursor: pointer;
+
+  transition: border var(--animation), color var(--animation),
+    background-color var(--animation), box-shadow var(--animation);
+}
+
+.other-films__button:hover,
+.other-films__button:focus,
+.other-films__button:active {
+  border: 1px solid;
+  color: #d3ac3f;
+  background-color: var(--bcg-color);
+  box-shadow: 0px 0px 10px 0px #d3ac3f;
 }
