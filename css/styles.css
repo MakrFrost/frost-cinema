@@ -405,16 +405,20 @@ a {
 /* Стили для футера */
 
 .footer {
-  padding-bottom: 50px;
+  padding: 60px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .footer-contacts {
-  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
 }
 
 .footer-contacts__title {
@@ -467,7 +471,35 @@ a {
 .footer-nav__link {
   font-family: var(--inter-font), sans-serif;
 
+  margin-bottom: 10px;
+
   font-size: 18px;
   line-height: 140%;
   color: var(--white);
+}
+
+.footer-public {
+  margin-right: 50px;
+}
+
+.footer-public__img {
+  margin-bottom: 10px;
+}
+
+.footer-public__text {
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-dev__img {
+  margin-bottom: 10px;
+}
+
+.footer-dev__text {
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.6;
 }
