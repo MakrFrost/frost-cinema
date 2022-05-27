@@ -51,6 +51,12 @@ a {
   text-decoration: none;
 }
 
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
 /* Контейнер для контента  */
 
 .container {
@@ -502,4 +508,30 @@ a {
   line-height: 140%;
   color: #ffffff;
   opacity: 0.6;
+}
+
+/*  Добавляет стили для кнопки-меню в хедере  */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  max-width: 100%;
+  height: 100vh;
+}
+.navigation-list {
+}
+.navigation-list__item {
+}
+.navigation-list__link {
+}
+
+.navigation-button {
+  background-color: var(--bcg-color);
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.navigation-button__icon {
 }
