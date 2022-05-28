@@ -47,7 +47,6 @@ p {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -480,6 +479,7 @@ ul[class] {
   font-size: 18px;
   line-height: 140%;
   color: var(--white);
+  transition: color var(--animation);
 }
 
 .footer-public {
@@ -523,7 +523,7 @@ ul[class] {
   background-color: var(--bcg-color);
   border-left: 4px ridge var(--second-text-color);
   border-bottom: 4px ridge var(--second-text-color);
-  box-shadow: 79px -41px 112px -63px var(--second-text-color) inset;
+  box-shadow: 20px -20px 112px -63px var(--second-text-color) inset;
 
   transition: top var(--animation);
 }
