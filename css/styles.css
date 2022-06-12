@@ -545,6 +545,7 @@ ul[class] {
 }
 
 .navigation-list__link {
+  color: var(--white);
   transition: color var(--animation);
 }
 
